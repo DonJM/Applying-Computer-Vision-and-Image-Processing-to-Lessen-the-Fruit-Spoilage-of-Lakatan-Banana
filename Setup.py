@@ -16,7 +16,7 @@ class Setup_Path:
     def getWorkspaces(self):
         paths = {
             "ADDONS_PATH":os.path.join("Tensorflow", "addons"),
-            "LABEL_IMG_PATH":os.path.join("Tensorflow", "addons", "labelled-Image"),
+            "LABEL_IMG_PATH":os.path.join("Tensorflow", "addons", "labeledImage"),
             "TFOD_API_PATH":"Tensorflow",
             "WORKSPACE_PATH":os.path.join("Tensorflow", "workspace"),
             "ANNOTATIONS_PATH":os.path.join("Tensorflow", "workspace", "annotations"),
