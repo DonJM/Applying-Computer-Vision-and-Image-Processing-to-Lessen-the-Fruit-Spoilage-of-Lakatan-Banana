@@ -8,7 +8,7 @@ class Setup_Path:
           'TFRECORD_SCRIPT':os.path.join(self.getWorkspaces()['PREPROCESSING_PATH'], 'generate_tfrecord.py'),
           "PRETRAINED_MODEL_NAME": pretrained_model_name,
           "PRETRAINED_MODEL_URL": pretrained_model_url, 
-          "PIPELINE_CONFIG": os.path.join("Tensorflow", "workspace", "training_demo", "my_model_zoo", "pipeline.config")
+          "PIPELINE_CONFIG": os.path.join("Tensorflow", "workspace", "my_model_zoo", "pipeline.config")
         }
 
         return files
