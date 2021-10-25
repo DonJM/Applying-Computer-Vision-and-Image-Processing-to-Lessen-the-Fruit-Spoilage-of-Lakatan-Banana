@@ -6,7 +6,7 @@ class Setup_Path:
         files = {
           "LABELMAP":os.path.join(self.getWorkspaces()['ANNOTATIONS_PATH'], "label_map.pbtxt"),
           'TFRECORD_SCRIPT':os.path.join(self.getWorkspaces()['PREPROCESSING_PATH'], 'generate_tfrecord.py'),
-          "PRETRAINED_MODEL_NAME": pretrained_model_name,
+          "PRETRAINED_MODEL_NAME": pretrained_model_name, 
           "PRETRAINED_MODEL_URL": pretrained_model_url, 
           "PIPELINE_CONFIG": os.path.join("Tensorflow", "workspace", "my_model_zoo", "pipeline.config")
         }
